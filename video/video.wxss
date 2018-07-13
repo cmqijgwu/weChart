@@ -1,0 +1,24 @@
+.video{
+  background-color: #ffe4e1;
+}
+.title{
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+}
+.video video{
+  width: 100%;
+  height: 600rpx;
+}
+.video .action .danmu{
+  position: relative;
+  height: 80rpx;
+}
+.video .action .danmu input{
+  height: 80rpx;
+  border-radius: 3px;
+}
+.btn{
+  background-color: pink;
+  border-radius: 3px;
+}

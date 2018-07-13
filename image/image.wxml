@@ -1,0 +1,20 @@
+<view class='total'>
+<view class='myphoto'>我的相册</view>
+<!--滑块视图组件，自定义轮播图-->
+<swiper class='swiperr' indicator-dots='{{indicatorDots}}' autoplay='{{autoplay}}' interval='{{interval}}' duration='{{duration}}'>
+     <block wx:for="{{img}}">
+        <swiper-item>
+        <image style='width:100%;height:100%;' src='{{item}}'></image>
+        </swiper-item>
+     </block>
+</swiper>
+<view class='slider-css'>
+   <slider class='sliderr' min='500' max='5000' show-value='true' block-color='pink' bindchange='intervalChange'>切换时间间隔</slider>
+</view>
+
+<text>\n</text>
+<button class='btn'  bindtap='changeIndicatorDots'>是否显示面板指示点</button>
+<button class='btn'  bindtap='changeAutoplay'>是否自动切换</button>
+
+
+</view>

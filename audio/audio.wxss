@@ -1,0 +1,16 @@
+.custom-audio{
+   background-color: #ffe4e1;
+   padding-top: 15px;
+}
+.title{
+  font-size: 18px;
+  padding: 5px;
+}
+.actions view{
+    height: 80rpx;
+    line-height: 80rpx;
+    text-align: center;
+    border-radius: 10%;
+    background-color: pink;
+    margin-bottom: 8px;
+}

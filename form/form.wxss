@@ -1,0 +1,26 @@
+.form{
+  background-color: #ffe4e1;
+}
+.message{
+  text-align: center;
+  font-size: 18px;
+  background-color: #ffe4e1;
+ padding: 10px;
+}
+.section__title{
+  background-color: pink;
+  font-size: 16px;
+  padding: 5px ;
+}
+.inputtext{
+  border: solid 1px #ffe4e1;
+}
+.text{
+  font-size: 14px;  
+}
+.section{
+  background-color: #ffe4e1;
+}
+.btn{
+   background-color: pink;
+}

@@ -1,0 +1,43 @@
+<view class='form'>
+<form  bindsubmit="formSubmit" bindreset="formReset">
+<view class='message'>个人信息</view>
+  <view class="section">
+    <view class="section__title">姓名</view>
+    <input class='text' name="input" placeholder="please input here" />
+  </view>
+  <text>\n</text>
+  <view class="section section_gap">
+    <view class="section__title">性别</view>
+    <radio-group class='total-form' name="radio-group">
+      <label class='text'><radio value="radio1"/>男</label>
+      <label class='text'><radio value="radio2"/>女</label>
+    </radio-group>
+  </view>
+  <text>\n</text>
+  <view class="section">
+    <view class="section__title">兴趣爱好</view>
+    <checkbox-group class='total-form' name="checkbox">
+      <label class='text'><checkbox value="checkbox1"/>听音乐</label>
+      <label class='text'><checkbox value="checkbox2"/>看电影</label>
+       <label class='text'><checkbox value="checkbox3"/>看书</label>
+       <label class='text'><checkbox value="checkbox4"/>旅行</label>
+   </checkbox-group>
+  </view>
+  <text>\n</text>
+  <view class='pickerr'>
+    <view class="section__title">生日</view>
+   <picker mode="date" value='{{selectDate}}' start='{{startDate}}' end='{{endDate}}' fields="day" bindchange='change3' >
+   {{selectDate}}
+   </picker>
+  </view>
+  <text>\n</text>
+  <view class="section section_gap">
+    <view class="section__title">个人说明</view>
+   <textarea placeholder="please input here" class='text' />
+  </view>
+  <view class="btn-area">
+    <button class='btn' formType="submit">提交</button>
+    <button class='btn' formType="reset">重置</button>
+  </view>
+</form>
+</view>

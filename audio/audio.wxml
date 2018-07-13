@@ -1,0 +1,13 @@
+<view class='custom-audio'>
+   <view class='title'>此时此刻--许巍</view>
+   <text>\n</text>
+   <audio id='myaudio' style='display:none;'></audio>
+   <image style='width:100%;' mode='widthFix' src='/images/010.jpg'></image>
+   <text>\n\n\n</text>
+   <view class='actions' bindtap='action'>
+      <view class='play' data-type='play'> 播放</view>
+      <view class='play' data-type='pause'>暂停</view>
+      <view class='play' data-type='seek'>调到30秒</view>
+      <view class='play' data-type='reset'>回到开头</view>
+   </view>
+</view>
